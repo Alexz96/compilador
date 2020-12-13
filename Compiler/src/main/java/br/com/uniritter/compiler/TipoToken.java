@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package br.com.uniritter.compiler;
 
 /**
@@ -31,5 +26,6 @@ public enum TipoToken {
     SIDENTIFICADOR,         //x, teste
     SABRE_PARENTESIS,       //(
     SFECHA_PARENTESIS,      //)
+    CODIGO,                 //Token para codigo
     SERRO                   //Usado para tokens nao reconhecidos
 }
