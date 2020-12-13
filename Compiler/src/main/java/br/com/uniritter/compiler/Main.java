@@ -23,7 +23,7 @@ public class Main {
 
         //Realiza a analise lexica do codigo
         lt = lexico.listaTokens();
-        lt2 = lexico.listaTokens();
+        lt2 = lexico2.listaTokens();
     }
 
     public static void testaParser() {
@@ -33,17 +33,17 @@ public class Main {
 
     }
 
-//    public static void testaParserCodigo() {
-//        Lexico lexico = new Lexico("teste2.lpd");
-//        ParserCodigo parser = new ParserCodigo(lexico);
-//        String codigo = parser.parse();
-//        System.out.println("Codigo: \n" + codigo);
-//    }
+    public static void testaParserCodigo() {
+        Lexico lexico = new Lexico("teste2.lpd");
+        ParserCodigo parser = new ParserCodigo(lexico);
+        String codigo = parser.parse();
+        System.out.println("Codigo: \n" + codigo);
+    }
 
     public static void main(String[] args) {
-        testaLexico();
+        //testaLexico();
         //testaParser();
-        //testaParserCodigo();
+        testaParserCodigo();
     }
 
 }

@@ -7,7 +7,7 @@ package br.com.uniritter.compiler;
 
 /**
  *
- * @author alexs
+ * @author Alexsander
  */
 public class Chave {
     
